@@ -5,6 +5,7 @@ import Footer from '../elements/Footer';
 import Home from '../Home/Home';
 import Movie from '../Movie/Movie';
 import NotFound from '../elements/NotFound';
+//import '././styles/styles.scss';
 
 const App = () => {
   return (

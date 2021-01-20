@@ -20,6 +20,11 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.2.0"
+    "css-loader": "^5.0.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.2.0",
+    "sass": "^1.30.0"
   }
 }
