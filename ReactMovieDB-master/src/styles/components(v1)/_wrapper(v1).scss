@@ -1,0 +1,44 @@
+/*
+// Wrapper
+
+.wrapper {
+    //max-width: 700px;
+    background-color: $darkIndigo;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    main {
+        flex: 1;
+    }
+
+    header {
+        grid-area: header;
+    }
+    main {
+        grid-area: main;
+    }
+    footer {
+        grid-area: footer;
+    }
+
+    // =================================================================
+    // Desktop Version
+
+    @media (min-width: $tablet) {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-areas:
+            ".      header"
+            ".      main"
+            "footer footer";
+        position: relative;
+    }
+
+    // =================================================================
+    // Tablet Version
+    @media only screen and (min-width: $mobile) {
+    }
+}
+
+*/

@@ -1,0 +1,48 @@
+/*
+// About Page Styling
+// ===========================================================================
+// About Page - Mobile Version
+
+.about-section {
+    padding: 5px 25px 100px 25px;
+
+    p {
+        text-align: center;
+        color: $lilac;
+    }
+
+    p:nth-child(5) {
+        color: $green;
+        font-style: italic;
+        padding: 250px 0px 0px 0px;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+    }
+
+    h3 {
+        text-align: center;
+        padding: 80px 0px 5px 0px;
+    }
+
+    div {
+        text-align: center;
+        margin: 100px 0px 0px 0px;
+    }
+    img {
+        height: auto;
+        width: 75px;
+    }
+}
+
+// ===========================================================================
+// Desktop Version
+@media only screen and (min-width: $tablet) {
+    // About Page - Desktop Version
+    .about-section p:nth-child(5) {
+        padding: 150px 0px 0px 0px;
+    }
+}
+*/

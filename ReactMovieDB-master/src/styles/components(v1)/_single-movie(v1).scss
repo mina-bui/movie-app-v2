@@ -1,0 +1,172 @@
+/*
+// Single Movie Page Styling
+
+// ===========================================================================
+// Single Movie Page - Mobile Version
+
+.title-desc {
+    grid-area: title-desc;
+}
+.poster {
+    grid-area: poster;
+    padding: 25px 0px 0px 0px;
+
+    p {
+        text-align: center;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: $green;
+        vertical-align: baseline;
+        background-color: $darkLilac;
+        padding: 10px 20px 10px 20px;
+    }
+}
+.rating {
+    grid-area: rating;
+}
+.fave {
+    grid-area: fave;
+    display: none;
+}
+.overview {
+    grid-area: overview;
+}
+.media {
+    grid-area: media;
+    display: none;
+}
+.related {
+    grid-area: related;
+    display: none;
+}
+.tab-info {
+    grid-area: tab-info;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "poster"
+        "title-desc"
+        "rating"
+        "overview"
+        "tab-info";
+}
+.single-movie-section {
+    padding: 20px 50px 50px 50px;
+
+    div h2 {
+        font-size: 1.75em;
+        padding: 0px 0px 0px 0px;
+    }
+
+    div h3 {
+        font-size: 1.5em;
+        font-weight: 400;
+        padding: 15px 0px 15px 0px;
+    }
+
+    span {
+        color: $bodyFont;
+        font-size: 0.8em;
+        padding: 10px 5px 10px 5px;
+        margin: 35px;
+        border: 3px solid $green;
+    }
+
+    div p {
+        font-size: 1em;
+        line-height: 1.75;
+    }
+}
+.singlemovie-rating {
+    color: $green;
+    text-transform: uppercase;
+}
+.play_icon,
+.favourite_icon {
+    height: 15px;
+    width: 15px;
+    vertical-align: baseline;
+    margin: 0px 10px 0px 0px;
+}
+// removes link in mobile mode
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+// ===========================================================================
+// Desktop Version
+@media only screen and (min-width: $tablet) {
+    // Single Movie Page - Desktop Version
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            "poster     poster      poster      title-desc  title-desc  title-desc"
+            "poster     poster      poster      rating      fave        fave"
+            "poster     poster      poster      overview    media       related"
+            "poster     poster      poster     tab-info    tab-info    tab-info";
+
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 0px 0px 0px;
+
+        h2,
+        h3 {
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .grid-container > div {
+        text-align: left;
+    }
+
+    .poster {
+        height: 100%;
+        width: 350px;
+        padding: 0px 0px 0px 0px;
+        font-size: 1.3em;
+        margin: 0px 50px 0px 0px;
+        align-self: center;
+        justify-self: center;
+    }
+    .overview,
+    .media,
+    .related,
+    .tab-info {
+        display: grid;
+        padding: 0px;
+        margin: 0px;
+    }
+    .rating p {
+        color: $green;
+        font-size: 1.4em;
+        text-transform: uppercase;
+    }
+    .fave {
+        display: grid;
+
+        p {
+            color: $green;
+            font-size: 1.2em;
+            text-transform: uppercase;
+        }
+    }
+    .single-movie-section div h2 {
+        font-size: 2.3em;
+    }
+    .singlemovie-rating {
+        text-transform: none;
+        color: $bodyFont;
+        p {
+            color: $green;
+        }
+    }
+    .not-active {
+        pointer-events: auto;
+        cursor: pointer;
+    }
+}
+*/

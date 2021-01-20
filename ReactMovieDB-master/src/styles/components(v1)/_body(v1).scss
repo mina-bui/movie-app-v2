@@ -1,0 +1,70 @@
+/*
+// Body Stylization
+body {
+    background-color: $darkIndigo;
+    color: $bodyFont;
+    font-family: $regularFont;
+    font-weight: 400;
+}
+p {
+    color: $bodyFont;
+    line-height: 2.2;
+    font-weight: 400;
+    font-size: 1em;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $regularFont;
+    color: $green;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2em;
+}
+a {
+    color: $green;
+    text-decoration: none;
+}
+a:hover {
+    color: $lilac;
+    transition-duration: 0.4s;
+}
+
+// ===========================================================================
+// Go Back Link
+.go-back {
+    color: $green;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+.go-back:active,
+.go-back:hover {
+    color: $lilac;
+    text-transform: uppercase;
+}
+
+// ===========================================================================
+// Desktop Version
+@media only screen and (min-width: $tablet) {
+    // =======================================================================
+    // Favourites Page - Desktop Version
+
+    // =======================================================================
+    // Home Page - Desktop Version
+}
+
+// ===========================================================================
+// Tablet Version
+@media only screen and (min-width: $mobile) {
+    // =======================================================================
+    // Favourites Page - Tablet Version
+
+    // =======================================================================
+    // Home Page - Tablet Version
+}
+*/

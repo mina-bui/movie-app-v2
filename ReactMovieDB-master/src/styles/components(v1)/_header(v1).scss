@@ -1,0 +1,295 @@
+/*
+// Header Stylization
+header {
+    // General Header Styling
+    background-color: $darkLilac;
+    //height: 230px;
+    /* MAKE HEADER STAY FIXED TO TOP OF THE SCREEN
+    position: fixed;
+    z-index: 100000;
+    */
+    /*
+    padding-bottom: 25px;
+
+    a {
+        text-transform: uppercase;
+        color: $green;
+    }
+
+    // ==============================================================================================
+    // Top Portion of Header (Logo Button / Search Bar)
+    // (Mobile Layout - Starting from baseline of 300px screen width)
+    .header-row-01 {
+        display: flex;
+        flex-wrap: wrap;
+
+        // Header Logo
+        .header-logo {
+            width: 180px;
+            margin-top: 24px;
+            margin-left: 20px;
+            margin-bottom: 0px;
+        }
+
+        // Search Bar
+        .search-bar {
+            background-color: $lilac;
+            border-radius: 25px;
+            height: 25px;
+            width: 72%;
+            margin-top: 20px;
+            margin-left: 7%;
+        }
+
+        // Search Bar Icon
+        .search-bar-icon {
+            width: 52px;
+            height: 52px;
+            margin-top: 13px;
+        }
+    }
+
+    // ==============================================================================================
+    // Bottom Portion of Header (Styling for Form Select)
+    // First Form Select------------------------------------------
+    .header-form-select {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 0px;
+
+        // Popular Form------------------------------
+        // (ACTIVE STATE)
+        .form-popular {
+            background-color: $green;
+            color: $darkIndigo;
+            border-radius: 25px;
+            width: 47%;
+            height: 30px;
+            text-align: center;
+            padding-top: 2px;
+            //margin-right: 1%;
+        }
+        .form-popular a {
+            color: $darkIndigo;
+            font-family: $boldFont;
+            font-size: 0.59em;
+            font-weight: 700;
+        }
+
+        // Top Rated Form-----------------------------
+        // (NON-ACTIVE STATE)
+        .form-top-rated {
+            border-style: solid;
+            border-color: $green;
+            border-width: 3px;
+            border-radius: 25px;
+            width: 47%;
+            height: 30px;
+            text-align: center;
+        }
+        .form-top-rated a {
+            color: $green;
+            font-family: $boldFont;
+            font-size: 0.59em;
+            font-weight: 700;
+        }
+
+        // Upcoming Form------------------------------
+        // (NON-ACTIVE STATE)
+        .form-upcoming {
+            margin-top: 13px;
+            border-style: solid;
+            border-color: $green;
+            border-width: 3px;
+            border-radius: 25px;
+            width: 47%;
+            height: 30px;
+            text-align: center;
+        }
+        .form-upcoming a {
+            color: $green;
+            text-decoration: none;
+            font-family: $boldFont;
+            font-size: 0.59em;
+            font-weight: 700;
+        }
+
+        // Now Playing Form----------------------------
+        // (NON-ACTIVE STATE)
+        .form-now-playing {
+            margin-top: 13px;
+            border-style: solid;
+            border-color: $green;
+            border-width: 3px;
+            border-radius: 25px;
+            width: 47%;
+            height: 30px;
+            text-align: center;
+        }
+        .form-now-playing a {
+            color: $green;
+            text-decoration: none;
+            font-family: $boldFont;
+            font-size: 0.55em;
+            font-weight: 700;
+        }
+    }
+    // Second Form Select------------------------------------------
+    .second-form-select {
+        display: none;
+        //transform: translateY(-300%);
+       
+
+        .vertical-heading {
+            border-left: 2.5px solid $green; 
+        }
+
+         // Second Popular Form----------------------------
+        .second-popular {
+           
+        }
+        .second-popular a {
+            font-family: $boldFont;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        // Second Top Rated Form----------------------------
+        .second-top-rated {
+            
+        }
+
+        .second-top-rated a {
+            color: $lilac;
+            font-family: $boldFont;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+
+        // Second Upcoming Form----------------------------
+        .second-upcoming {
+            
+        }
+        .second-upcoming a {
+            color: $lilac;
+            font-family: $boldFont;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        // Second Now Playing Form----------------------------
+        .second-now-playing {
+            
+        }
+        .second-now-playing a {
+            color: $lilac;
+            font-family: $boldFont;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+    }
+
+    @media (min-width: 500px) {
+        //Top Portion of Header-------------------
+        .header-row-01 {
+            // Search Bar
+            .search-bar {
+                width: 30%;
+                margin-top: 35px;
+                margin-left: 20px;
+            }
+            // Search Bar Icon
+            .search-bar-icon {
+                width: 52px;
+                height: 52px;
+                margin-top: 29px;
+                margin-right: 20px;
+            }
+        }
+
+        //Bottom Portion of Header-------------------
+        .header-form-select {
+            margin-top: 15px;
+            margin-left: 3%;
+            margin-right:3%;
+
+            .form-popular {
+                width: 24%;
+                margin-right: 1%;
+            }
+            .form-top-rated {
+                width: 24%;
+            }
+            .form-upcoming {
+                margin-top: 0px;
+                width: 24%;
+            }
+            .form-now-playing {
+                margin-top: 0px;
+                width: 24%;
+            }
+        }
+    }
+
+    @media (min-width: 550px) {
+        //Top Portion of Header-------------------
+        .header-row-01 {
+            // Search Bar
+            .search-bar {
+                width: 35%;
+            }
+        }
+    }
+
+    @media (min-width: 600px) {
+        //Top Portion of Header-------------------
+        .header-row-01 {
+            // Search Bar
+            .search-bar {
+                width: 39%;
+            }
+        }
+    }
+
+    @media (min-width: 750px) {
+        //Top Portion of Header-------------------
+        .header-row-01 {
+            // Search Bar
+            .search-bar {
+                width: 45%;
+            }
+        }
+        
+    }
+
+
+    @media (min-width: $tablet) {
+        //$tablet: 768px
+        position: relative;
+        transform: translateY(-100%);
+
+        //Bottom Portion of Header-------------------
+        .second-form-select {
+            transform: translateY(340%);
+            display: flex;
+            justify-content: space-evenly;
+            margin:auto;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+
+    @media (min-width: 900px) {
+        //Bottom Portion of Header-------------------
+        .second-form-select {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+}
+*/
