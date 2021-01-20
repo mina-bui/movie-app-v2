@@ -22,7 +22,23 @@
 @import "./base/reset";
 @import "./base/type";
 
-// Components
+// Components 
+@import "./components/actor";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/load-more-button";
+@import "./components/movie-info-bar";
+@import "./components/movie-info";
+@import "./components/movie-thumb";
+@import "./components/navigation";
+@import "./components/not-found";
+@import "./components/search-bar";
+@import "./components/six-col-grid";
+@import "./components/spinner";
+
+
+/*
+// Components (v1)
 @import "./components/body";
 @import "./components/wrapper";
 @import "./components/header";
@@ -33,5 +49,6 @@
 @import "./components/about";
 @import "./components/single-movie";
 @import "./components/footer";
+*/
 
 // Widgets
